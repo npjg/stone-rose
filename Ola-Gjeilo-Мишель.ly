@@ -9,6 +9,7 @@
 global = {
   \key g \major
   \time 2/2
+  \tempo 2 = 87
 }
 
 right = \relative c'' {
@@ -54,6 +55,6 @@ leftTwo = \relative c' {
     }
   }		
   \midi {
-    \tempo 4=100
+    \tempo 2 = 87
   }
 }
