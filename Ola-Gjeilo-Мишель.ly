@@ -27,14 +27,14 @@ right = \relative c'' {
 
 leftOne = \relative c' {
   \global
-%  g2 g1*3/2
-  
+  \repeat unfold 4 { g2 g1*3/2 }
+  \repeat unfold 4 { b2 b4 a4~ a1 }
 }
 
-leftTwo = \relative c' {
+leftTwo = \relative c {
   \global
-  % Music follows here.
-  
+  \repeat unfold 2 { <g d'>2~ <g d'>4 <c e>2 c4 g'4~ g8 d }
+  \repeat unfold 6 { <g, d'>2~ <g d'>4 <c e>2 c4 <e g a>4~ <e g a>8 d }
 }
 
 \score {
