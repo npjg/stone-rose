@@ -21,7 +21,8 @@ right = \relative c'' {
   
   b4 d,8 g4 d4 d4 d4 g4 d4 
   g8 b8 c4 b4 a4 a8 g2 r8 d4 
-  d4. d8 g4 a8 b8 a4 g fis e \appoggiatura fis e d d 
+  d4. d8 g4 a8 b8 a4 g fis e \appogiatura fis e d d2~ d8 |
+  r4 r8 d g a4 g8~ g2. r8 g fis e4 e4 d4 d2..
 
 }
 
